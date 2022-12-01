@@ -1,0 +1,24 @@
+:root {
+    --dark-blue: #5585b5;
+    --blue-dark: #53a8b6;
+    --blue-med: #79c2d0;
+    --blue-light: #bbe4e9;
+
+}
+
+header {
+    background-color: var(--blue-dark);
+}
+
+body {
+    background-color: var(--dark-blue);
+}
+
+.text-container {
+    background-color: var(--blue-med);
+}
+
+.card-container {
+    background-color: var(--blue-dark);
+}
+
