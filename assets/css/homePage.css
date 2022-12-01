@@ -1,0 +1,33 @@
+:root {
+    --dark-blue: #5585b5;
+    --blue-dark: #53a8b6;
+    --blue-med: #79c2d0;
+    --blue-light: #bbe4e9;
+
+}
+
+body {
+    background-color: var(--dark-blue);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.card {
+    background-color: var(--blue-dark);
+}
+
+p {
+    background-color: var(--blue-med);
+    border-radius: 5px;
+}
+
+.btn {
+    --bs-btn-padding-x: 5.75rem;
+    background-color: var(--blue-light);
+
+}
