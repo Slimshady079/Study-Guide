@@ -2,5 +2,5 @@
 
 // calls alert for cards
 $(".card").click(function () {
-  alert("handler called");
+  alert("HyperText Markup Language");
 });
