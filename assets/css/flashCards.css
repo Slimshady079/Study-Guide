@@ -17,3 +17,7 @@ body {
 .card-container {
     background-color: var(--blue-med);
 }
+
+.card :hover {
+    cursor: grab;
+}
