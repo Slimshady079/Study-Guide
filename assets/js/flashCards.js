@@ -1,7 +1,6 @@
 // console.log("in flashcards.js");
 
-const cards = document.getElementsByClassName("card");
-
+// calls alert for cards
 $(".card").click(function () {
   alert("handler called");
 });
